@@ -1,0 +1,13 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root { color-scheme: dark; font-family: 'DM Sans', sans-serif; background: #0b0e14; }
+* { box-sizing: border-box; }
+body { margin: 0; min-width: 320px; min-height: 100vh; }
+button { font: inherit; }
+::selection { background: rgba(139, 123, 255, .35); }
+.editor-scrollbar::-webkit-scrollbar { width: 8px; }
+.editor-scrollbar::-webkit-scrollbar-thumb { background: #313849; border-radius: 999px; }
